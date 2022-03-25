@@ -20,9 +20,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- carousel -->
-    <link rel="stylesheet" href="/carousel/slick/slick.css">
-    <link rel="stylesheet" href="/carousel/slick/slick-theme.css">
+    <!-- fancybox -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
 
 
     <title>PDP</title>
@@ -31,11 +33,13 @@
 
 <body>
 
-
-
     <div class="fake">
         <img src="fake.jpg">
+        <img src="fake_mobile.jpg">
     </div>
+
+
+
 
     <main>
 
@@ -52,6 +56,7 @@
                         <!-- main image -->
 
                         <img alt="main" src="https://cdn.wetsuitoutlet.co.uk/images/1x1/thumbs/2021%20Dryrobe%20Advance%20Long%20Sleeve%20Premium%20Waterproof%20Change%20Robe%20%20Poncho%20DR104%20-%20camo%20grey.2000x2000.jpg">
+
 
 
                         <!-- gallery -->
@@ -75,8 +80,34 @@
                             <div>
                                 <img alt="gallery_2" src="https://cdn.wetsuitoutlet.co.uk/images/thumbs/Dryrobe-Advance-Long-Sleeve-Premium-Outdoor-Change-Robe-DR104-Camo-Grey-Action-2.85x170.jpg">
                             </div>                            
-
                         </div>
+                        
+
+
+                        <!-- gallery mobile carousel -->
+
+                        <div class="galleryCarousel">
+                            <div class="carousel__slide">
+                                <img alt="gallery_1" src="https://cdn.wetsuitoutlet.co.uk/images/1x1/thumbs/LS-Small-Dryrobe-Camo.2000x2000.jpg">
+                            </div>
+                            <div class="carousel__slide">
+                                <img alt="gallery_2" src="https://cdn.wetsuitoutlet.co.uk/images/thumbs/Dryrobe-LS-Camo-Grey-1.85x170.jpg">
+                            </div>
+                            <div class="carousel__slide">
+                                <img alt="gallery_1" src="https://cdn.wetsuitoutlet.co.uk/images/thumbs/Dryrobe-Advance-Long-Sleeve-Premium-Outdoor-Change-Robe-DR104-Camo-Grey-Back.85x170.jpg">
+                            </div>
+                            <div class="carousel__slide">
+                                <img alt="gallery_2" src="https://cdn.wetsuitoutlet.co.uk/images/thumbs/Dryrobe-Advance-Long-Sleeve-Premium-Outdoor-Change-Robe-DR104-Camo-Grey-Action.85x170.jpg">
+                            </div>
+                            <div class="carousel__slide">
+                                <img alt="gallery_2" src="https://cdn.wetsuitoutlet.co.uk/images/thumbs/Dryrobe-Advance-Long-Sleeve-Premium-Outdoor-Change-Robe-DR104-Camo-Grey-Action-2.85x170.jpg">
+                            </div>
+                            <div class="carousel__slide">
+                                <img alt="gallery_2" src="https://cdn.wetsuitoutlet.co.uk/images/thumbs/Dryrobe-Advance-Long-Sleeve-Premium-Outdoor-Change-Robe-DR104-Camo-Grey-Action-2.85x170.jpg">
+                            </div>                                                                                                                
+                        </div>
+
+
                     </div>
 
 
@@ -116,22 +147,45 @@
 
                         <div>
                             <span class="text strong">Colour:</span> <span class="text">Grey/Camo</span>
-                            <div class="smallGallery" id="smallGallery">
-                                <div>
-                                    <img src="https://cdn.wetsuitoutlet.co.uk/images/1x1/thumbs/2021%20Dryrobe%20Advance%20Long%20Sleeve%20Premium%20Waterproof%20Change%20Robe%20%20Poncho%20DR104%20-%20Black%20red.55x55.jpg">
+                            <div class="carousel" id="smallGallery">
+                                <div class="carousel__slide">
+                                    <a href="">
+                                        <img src="https://cdn.wetsuitoutlet.co.uk/images/1x1/thumbs/2021%20Dryrobe%20Advance%20Long%20Sleeve%20Premium%20Waterproof%20Change%20Robe%20%20Poncho%20DR104%20-%20Black%20red.55x55.jpg">
+                                    </a>
                                 </div>
-                                <div>    
-                                    <img src="https://cdn.wetsuitoutlet.co.uk/images/1x1/thumbs/2021%20Dryrobe%20Advance%20Long%20Sleeve%20Premium%20Waterproof%20Change%20Robe%20%20Poncho%20DR104%20-%20Black%20grey.55x55.jpg">
+                                <div class="carousel__slide">
+                                    <a href="">
+                                        <img src="https://cdn.wetsuitoutlet.co.uk/images/1x1/thumbs/2021%20Dryrobe%20Advance%20Long%20Sleeve%20Premium%20Waterproof%20Change%20Robe%20%20Poncho%20DR104%20-%20Black%20red.55x55.jpg">
+                                    </a>
                                 </div>
-                                <div>
-                                    <img src="https://cdn.wetsuitoutlet.co.uk/images/1x1/thumbs/2021%20Dryrobe%20Advance%20Long%20Sleeve%20Premium%20Waterproof%20Change%20Robe%20%20Poncho%20DR104%20-%20Black%20Blue.55x55.jpg">
-                                </div>
-                                <div>
-                                    <img src="https://cdn.wetsuitoutlet.co.uk/images/1x1/thumbs/2021%20Dryrobe%20Advance%20Long%20Sleeve%20Premium%20Waterproof%20Change%20Robe%20%20Poncho%20DR104%20-%20Black%20Blue.55x55.jpg">
+                                <div class="carousel__slide">
+                                    <a href="">
+                                        <img src="https://cdn.wetsuitoutlet.co.uk/images/1x1/thumbs/2021%20Dryrobe%20Advance%20Long%20Sleeve%20Premium%20Waterproof%20Change%20Robe%20%20Poncho%20DR104%20-%20Black%20red.55x55.jpg">
+                                    </a>
                                 </div>                                
-                              <div class="extra">
+                                <div class="carousel__slide">
+                                    <a href="">
+                                        <img src="https://cdn.wetsuitoutlet.co.uk/images/1x1/thumbs/2021%20Dryrobe%20Advance%20Long%20Sleeve%20Premium%20Waterproof%20Change%20Robe%20%20Poncho%20DR104%20-%20Black%20red.55x55.jpg">
+                                    </a>                                        
+                                </div>
+                                <div class="carousel__slide">
+                                    <a href="">
+                                        <img src="https://cdn.wetsuitoutlet.co.uk/images/1x1/thumbs/2021%20Dryrobe%20Advance%20Long%20Sleeve%20Premium%20Waterproof%20Change%20Robe%20%20Poncho%20DR104%20-%20Black%20grey.55x55.jpg">
+                                    </a>
+                                </div> 
+                                <div class="carousel__slide">
+                                    <a href="">
+                                        <img src="https://cdn.wetsuitoutlet.co.uk/images/1x1/thumbs/2021%20Dryrobe%20Advance%20Long%20Sleeve%20Premium%20Waterproof%20Change%20Robe%20%20Poncho%20DR104%20-%20Black%20grey.55x55.jpg">
+                                    </a>
+                                </div>   
+                                                                                                                        
+                                                                                                                                                            
+                                
+                                <!--                                                                                                                     
+                                <div class="extra">
                                     +2
                                 </div>
+                                -->
 
                             </div>
                         </div>
@@ -156,11 +210,11 @@
                                     <a href=""  rel="nofollow">XS</a>
                                 </li>
                                 <li>
-                                    <a href=""  rel="nofollow">XL</a>
-                                </li>    
-                                <li>
-                                    <a href=""  rel="nofollow">XXL</a>
-                                </li>                                
+                                    <a href=""  rel="nofollow">XS</a>
+                                </li>
+                               
+                                
+                                                         
                             </ul>  
                             <span class="text">Low stock</span>                  
                         </div>
@@ -411,7 +465,7 @@
                         <span class="prod_price light_19px">£59.95</span>
                         <span class="prod_name light_16px">2021 Optimum Times Series 3 Sailing Watch OS319 - Pink</span>
                     </a>
-                </div>                                                
+                </div>                                                             
             </div>
 
             <p class="main">Customers who bought this item also bought</p>
@@ -541,7 +595,7 @@
     
 
 
-    <footer>
+    <footer id="footer">
         <div class="container small">
 
             <div>
@@ -611,7 +665,7 @@
     </footer>
 
 
-    <div class="social" style="background-color:#16364f">
+    <div class="social">
         <div class="container">
         <p class="small">© 2022 B2C Distribution Ltd (Wetsuit Outlet).</p>
         <p class="small">
@@ -648,15 +702,13 @@
 
     <script>
         $(document).ready(function(){
-
             
             //SHOW STOCK
 
-            $(".size ul li").click(function(){
+            $("#size a").click(function(){
                 $(".size span:last-child").css("display","block");
-                $(".addcart input").css("margin-top","-20px");
+               // $(".addcart input").css("margin-top","-20px");
             });
-
 
             $(".size a").click(function(){
                 return false;
@@ -664,30 +716,19 @@
 
 
 
-
-
-
             // GALLERIES OPTIONS
 
             //fixing flex 'justify-content' issue
 
-
             var sizeCount = document.getElementById("size").childElementCount;
             if(sizeCount<5 || sizeCount>5){
                 $(".size ul").css("justify-content","left");
-                $(".size li").css({"margin-right":"6px","margin-bottom":"6px"});
-            }
+                $(".size li").css({"margin-right":"4px","margin-bottom":"4px"});
+            } 
+            
 
 
-            var smallCount = document.getElementById("smallGallery").childElementCount;
-            if(smallCount<5){
-                $(".smallGallery").css("justify-content","left");
-                $(".smallGallery div").css("margin-right","6px");
-            }
-
-
-
-            //adding bigger picture at the end when number is even
+            //adding bigger picture at the end when number is odd
 
             var count = document.getElementById("gallery").childElementCount;
             if(count%2!==0){
@@ -697,7 +738,23 @@
     </script>
 
 
+    <!-- fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script>
+        const myCarousel = new Carousel(document.querySelector(".carousel"), {
+            slidesPerPage : 1,
+            center : false
+        });
 
+        if ($(window).outerWidth() < 600) {
+            const myCarousel2 = new Carousel(document.querySelector(".galleryCarousel"), {
+            slidesPerPage : 1,
+            center : false
+        });
+
+        }
+
+    </script>
 
 
 </body>
